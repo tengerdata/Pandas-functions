@@ -7,3 +7,14 @@ new_row = pd.DataFrame({'A': [35], 'B': [27], 'C': [43]})
 
 df.loc[4] = new_row.loc[0]
 print(df)
+
+"""
+Output:
+
+    A   B   C
+0   1   5   9
+1   2   6  10
+2   3   7  11
+3   4   8  12
+4  35  27  43
+"""
